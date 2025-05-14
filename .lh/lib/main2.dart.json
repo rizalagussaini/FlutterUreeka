@@ -1,0 +1,18 @@
+{
+    "sourceFile": "lib/main2.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1747236716561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1747236716561,
+            "name": "Commit-0",
+            "content": "import 'package:flutter/material.dart';\r\n\r\n// Definisikan sebuah class bernama Person\r\nclass Person {\r\n  // Properti\r\n  String name;\r\n  int age;\r\n\r\n  // Konstruktor\r\n  Person({required this.name, required this.age});\r\n\r\n  // Method untuk menampilkan informasi\r\n  void introduce() {\r\n    print('Halo, nama saya $name dan saya berusia $age tahun.');\r\n  }\r\n}\r\n\r\nvoid main() {\r\n  runApp(MyApp());\r\n}\r\n\r\nclass MyApp extends StatelessWidget {\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    // Membuat objek Person\r\n    var person1 = Person(name: 'Rizal', age: 21);\r\n\r\n    // Memanggil method introduce dari objek person1\r\n    person1.introduce();\r\n\r\n    return MaterialApp(\r\n      home: Scaffold(\r\n        appBar: AppBar(\r\n          title: Text('Contoh OOP di Flutter'),\r\n        ),\r\n        body: Center(\r\n          child: Text('Cek konsol untuk output!'),\r\n        ),\r\n      ),\r\n    );\r\n  }\r\n}\r\n"
+        }
+    ]
+}
